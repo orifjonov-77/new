@@ -1,0 +1,1252 @@
+{
+  "javascript": {
+    "title": "JavaScript",
+    "questions": [
+      {
+        "id": 1,
+        "question": "JavaScript tilida o'zgarmas o'zgaruvchi e'lon qilish uchun qaysi kalit so'z ishlatiladi?",
+        "options": {"A": "var", "B": "let", "C": "const", "D": "static"},
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "question": "typeof NaN natijasi nima bo'ladi?",
+        "options": {"A": "number", "B": "NaN", "C": "undefined", "D": "object"},
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "JavaScript qaysi paradigmaga mansub til hisoblanadi?",
+        "options": {"A": "Faqat funksional", "B": "Faqat OOP", "C": "Ko'p paradigmali", "D": "Faqat protsedurali"},
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "question": "Quyidagi usullardan qaysi biri massiv oxiriga yangi element qo'shadi?",
+        "options": {"A": "pop()", "B": "push()", "C": "shift()", "D": "unshift()"},
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "0 === '0' ifodasi nimani qaytaradi?",
+        "options": {"A": "true", "B": "false", "C": "TypeError", "D": "undefined"},
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "JavaScript-da asinxronlikni boshqarish uchun ES6 da nima kiritilgan?",
+        "options": {"A": "Callback", "B": "Promise", "C": "Thread", "D": "Worker"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Massivning har bir elementiga berilgan funksiyani qo'llab yangi massiv qaytaruvchi metod qaysi?",
+        "options": {"A": "forEach()", "B": "filter()", "C": "map()", "D": "reduce()"},
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "question": "JSON matnini JavaScript obyektiga aylantiruvchi metod qaysi?",
+        "options": {"A": "JSON.toObject()", "B": "JSON.stringify()", "C": "JSON.parse()", "D": "JSON.convert()"},
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "JavaScript-da Event Loop nima vazifani bajaradi?",
+        "options": {"A": "Sikllarni tezlashtiradi", "B": "Asinxron kod va call stack navbatini boshqaradi", "C": "Fayllarni o'qiydi", "D": "Xatolarni ushlaydi"},
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Qaysi kalit so'z yordamida funksiya asinxron deb e'lon qilinadi?",
+        "options": {"A": "async", "B": "await", "C": "promise", "D": "defer"},
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "DOM qisqartmasi nimani anglatadi?",
+        "options": {"A": "Document Object Model", "B": "Data Object Mode", "C": "Digital Operation Method", "D": "Desktop Object Manager"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "null ning tipi typeof tekshiruvida nima chiqadi?",
+        "options": {"A": "null", "B": "undefined", "C": "object", "D": "number"},
+        "answer": "C"
+      },
+      {
+        "id": 13,
+        "question": "Massivdagi elementlarni bitta qiymatga jamlash uchun qaysi metoddan foydalaniladi?",
+        "options": {"A": "map()", "B": "filter()", "C": "concat()", "D": "reduce()"},
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "question": "Quyidagilardan qaysi biri primitiv ma'lumot turi EMAS?",
+        "options": {"A": "string", "B": "boolean", "C": "symbol", "D": "object"},
+        "answer": "D"
+      },
+      {
+        "id": 15,
+        "question": "Spread operatori qaysi belgi orqali ifodalanadi?",
+        "options": {"A": "...", "B": "::", "C": "->", "D": "&&"},
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Arrow function larda o'zining qanday xususiyati bo'lmaydi?",
+        "options": {"A": "return", "B": "this va arguments", "C": "parametr", "D": "scope"},
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "Brauzerda sahifani qayta yuklash qaysi buyruq orqali bajariladi?",
+        "options": {"A": "window.reload()", "B": "location.reload()", "C": "document.refresh()", "D": "page.reload()"},
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "Set ma'lumotlar tuzilmasining asosiy xususiyati nima?",
+        "options": {"A": "Faqat sonlarni saqlaydi", "B": "Kalit-qiymat shaklida ishlaydi", "C": "Faqat takrorlanmas noyob qiymatlarni saqlaydi", "D": "Hajmi o'zgarmas bo'ladi"},
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "question": "Closure (yopilish) nima?",
+        "options": {"A": "Funksiyaning tashqi muhitdagi o'zgaruvchilarni eslab qolishi", "B": "Dasturni majburiy to'xtatish", "C": "Obyektni yopish", "D": "Kodni qisqartirish"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "ES6 da moduldan bir nechta elementlarni eksport qilish qanday ataladi?",
+        "options": {"A": "default export", "B": "named export", "C": "global export", "D": "multi export"},
+        "answer": "B"
+      }
+    ]
+  },
+  "react": {
+    "title": "React",
+    "questions": [
+      {
+        "id": 1,
+        "question": "React nima?",
+        "options": {"A": "Backend freymvork", "B": "Foydalanuvchi interfeyslarini yaratish uchun JavaScript kutubxonasi", "C": "Ma'lumotlar bazasi", "D": "Brauzer kengaytmasi"},
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "React-da holatni (state) boshqarish uchun qaysi asosiy Hook ishlatiladi?",
+        "options": {"A": "useEffect", "B": "useContext", "C": "useState", "D": "useReducer"},
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "JSX nima?",
+        "options": {"A": "JavaScript XML sintaksisi kengaytmasi", "B": "CSS preprotsessori", "C": "Yangi dasturlash tili", "D": "JSON formati"},
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "question": "Komponentning lifecycle jarayonlarini (masalan, API ga so'rov yuborish) qaysi Hook orqali boshqaramiz?",
+        "options": {"A": "useState", "B": "useEffect", "C": "useRef", "D": "useMemo"},
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "Virtual DOM ning asosiy vazifasi nima?",
+        "options": {"A": "DOM yangilanishlarini optimallashtirish va tezlikni oshirish", "B": "Serverga yukni kamaytirish", "C": "Xavfsizlikni ta'minlash", "D": "CSS animatsiyalarini boshqarish"},
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "question": "Props va State o'rtasidagi asosiy farq nima?",
+        "options": {"A": "Props o'zgaruvchan, State o'zgarmas", "B": "Props tashqaridan keladi (read-only), State komponent ichida boshqariladi", "C": "Farqi yo'q", "D": "State faqat funksiyalarda ishlaydi"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Ro'yxat elementlarini chizishda nima uchun har bir elementga 'key' atributi beriladi?",
+        "options": {"A": "Chiroyli ko'rinishi uchun", "B": "React DOM da o'zgargan elementni tez topib qayta chizishi uchun", "C": "CSS uchun", "D": "Xatolik chiqmasligi uchun shart emas"},
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "DOM elementiga to'g'ridan-to'g'ri havola (reference) olish uchun qaysi Hook ishlatiladi?",
+        "options": {"A": "useMemo", "B": "useCallback", "C": "useRef", "D": "useContext"},
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "useMemo Hook-i nima maqsadda ishlatiladi?",
+        "options": {"A": "Qimmat hisob-kitoblar natijasini keshlab optimallashtirish", "B": "DOM ga ta'sir o'tkazish", "C": "Holatni yangilash", "D": "URL parametrlarini olish"},
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Komponentlar daraxti bo'ylab ma'lumotlarni prop drilling siz uzatish uchun nima ishlatiladi?",
+        "options": {"A": "React Context", "B": "Redux", "C": "Har ikkisi ham ishlatilishi mumkin", "D": "Faqat localStorage"},
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "React komponentlari necha xil turga bo'linadi?",
+        "options": {"A": "Funksional va Sinfli (Class)", "B": "Faqat sinfli", "C": "Statik va dinamik", "D": "Server va client"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Quyidagi Hook-lardan qaysi biri faqat callback funksiyani keshlaydi?",
+        "options": {"A": "useMemo", "B": "useCallback", "C": "useEffect", "D": "useLayoutEffect"},
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "React-da bir nechta elementni ortiqcha DOM tugunisiz o'rash uchun nima ishlatiladi?",
+        "options": {"A": "<div>", "B": "<section>", "C": "<Fragment> yoki <> </>", "D": "<span>"},
+        "answer": "C"
+      },
+      {
+        "id": 14,
+        "question": "useEffect Hook-ining ikkinchi parametri nima deb ataladi?",
+        "options": {"A": "Dependency array (bog'liqliklar massivi)", "B": "State array", "C": "Action array", "D": "Dispatcher"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Dependency array bo'sh massiv [] bo'lsa, useEffect qachon ishga tushadi?",
+        "options": {"A": "Har bir renderda", "B": "Faqat birinchi renderdan so'ng (komponent o'rnatilganda)", "C": "Hech qachon ishlamaydi", "D": "Faqat komponent o'chirilganda"},
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "React Router kutubxonasida marshrutlarni belgilash uchun qaysi komponent ishlatiladi?",
+        "options": {"A": "<Route>", "B": "<Path>", "C": "<Link>", "D": "<RouterPath>"},
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "question": "Custom Hook yaratish qoidasi bo'yicha uning nomi qaysi so'z bilan boshlanishi kerak?",
+        "options": {"A": "get", "B": "use", "C": "set", "D": "handle"},
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "Next.js nima?",
+        "options": {"A": "React asosidagi Server-Side Rendering (SSR) freymvorki", "B": "CSS kutubxonasi", "C": "Baza drayveri", "D": "Testlash vositasi"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "React StrictMode nimaga xizmat qiladi?",
+        "options": {"A": "Potensial muammo va xatoliklarni ishlab chiqish jarayonida erta aniqlash", "B": "Saytni sekinlashtirish", "C": "Kodni shifrlash", "D": "CSS xatolarini tuzatish"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "React kim tomonidan ishlab chiqilgan va qo'llab-quvvatlanadi?",
+        "options": {"A": "Google", "B": "Meta (Facebook)", "C": "Microsoft", "D": "Twitter"},
+        "answer": "B"
+      }
+    ]
+  },
+  "excel": {
+    "title": "Excel",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Excel da barcha formulalar qaysi belgi bilan boshlanadi?",
+        "options": {"A": "#", "B": "=", "C": "@", "D": "$"},
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Bir qator katakchalardagi sonlarning yig'indisini hisoblovchi funksiya qaysi?",
+        "options": {"A": "AVERAGE", "B": "COUNT", "C": "SUM", "D": "TOTAL"},
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "O'rtacha arifmetik qiymatni topish uchun qaysi funksiya qo'llaniladi?",
+        "options": {"A": "SUM", "B": "AVERAGE", "C": "MEDIAN", "D": "MEAN"},
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "Katakcha manzilini qotirish (absolyut manzil) uchun qaysi belgi ishlatiladi (masalan: $A$1)?",
+        "options": {"A": "$", "B": "&", "C": "%", "D": "!"},
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "question": "Jadvaldan vertikal bo'yicha qiymat qidiruvchi mashhur funksiya qaysi?",
+        "options": {"A": "HLOOKUP", "B": "VLOOKUP", "C": "SEARCH", "D": "FIND"},
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "Katakchalar ichidagi faqat raqamli katakchalar sonini sanash uchun qaysi funksiya kerak?",
+        "options": {"A": "COUNT", "B": "COUNTA", "C": "COUNTBLANK", "D": "SUMIF"},
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "question": "Bo'sh bo'lmagan barcha katakchalarni (matn va son) sanovchi funksiya qaysi?",
+        "options": {"A": "COUNT", "B": "COUNTA", "C": "COUNTIF", "D": "LEN"},
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "Shartga qarab biror amalni bajarish (agar shart to'g'ri bo'lsa bir qiymat, aks holda boshqa) funksiyasi qaysi?",
+        "options": {"A": "IF", "B": "OR", "C": "AND", "D": "NOT"},
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "question": "Faylni saqlash uchun qaysi klavishlar birikmasi bosiladi?",
+        "options": {"A": "Ctrl + C", "B": "Ctrl + S", "C": "Ctrl + P", "D": "Ctrl + Z"},
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Katta hajmdagi ma'lumotlarni umumlashtirish va tahlil qilish uchun qanday vosita mavjud?",
+        "options": {"A": "Pivot Table (Svodnaya tablitsa)", "B": "WordArt", "C": "ClipArt", "D": "SmartArt"},
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "Excel da yangi ishchi varaq (sheet) qo'shish qisqa klavishlari qaysi?",
+        "options": {"A": "Shift + F11", "B": "Ctrl + N", "C": "Alt + F4", "D": "Ctrl + Tab"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Ikki yoki undan ko'p katakchadagi matnlarni birlashtiruvchi funksiya qaysi?",
+        "options": {"A": "CONCATENATE (yoki CONCAT)", "B": "COMBINE", "C": "MERGE", "D": "JOIN"},
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "Excel da matn uzunligini (belgilar sonini) aniqlovchi funksiya qaysi?",
+        "options": {"A": "LENGTH", "B": "LEN", "C": "COUNTSTR", "D": "SIZE"},
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "question": "VLOOKUP funksiyasining zamonaviy va qulayroq o'rinbosari qaysi?",
+        "options": {"A": "XLOOKUP", "B": "ZLOOKUP", "C": "INDEXMATCH", "D": "FASTLOOK"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Shart bo'yicha yig'indini hisoblash funksiyasi qaysi?",
+        "options": {"A": "SUMIF", "B": "IFSUM", "C": "COUNTIF", "D": "TOTALIF"},
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Excel da ustunlar qanday belgilanadi?",
+        "options": {"A": "Raqamlar bilan (1, 2, 3...)", "B": "Harflar bilan (A, B, C...)", "C": "Rim raqamlari bilan", "D": "Maxsus belgilar bilan"},
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "Katakchalarni qoidaga asosan avtomatik bo'yash vositasi nima deyiladi?",
+        "options": {"A": "Format Painter", "B": "Conditional Formatting (Shartli formatlash)", "C": "Cell Styles", "D": "AutoColor"},
+        "answer": "B"
+      },
+      {
+        "id": 18,
+        "question": "Katakcha ichida yangi qatordan yozish uchun qaysi klavishlar bosiladi?",
+        "options": {"A": "Alt + Enter", "B": "Ctrl + Enter", "C": "Shift + Enter", "D": "Tab + Enter"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Katakchada ### xatoligi nima sababdan chiqadi?",
+        "options": {"A": "Formula xato", "B": "Ustun kengligi ma'lumotni sig'dirishga yetarli emas", "C": "0 ga bo'lish xatosi", "D": "Matn kiritilgan"},
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "Jadval ustunlariga tezkor filtr qo'yish klavishlar birikmasi qaysi?",
+        "options": {"A": "Ctrl + Shift + L", "B": "Ctrl + F", "C": "Ctrl + H", "D": "Alt + F"},
+        "answer": "A"
+      }
+    ]
+  },
+  "word": {
+    "title": "Word",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Microsoft Word dasturi qanday turdagi dastur hisoblanadi?",
+        "options": {"A": "Jadval protsessori", "B": "Matn muharriri (protsessori)", "C": "Grafik muharrir", "D": "Ma'lumotlar bazasi"},
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Barcha matnni birdaniga belgilash (tanlash) uchun qaysi klavishlar bosiladi?",
+        "options": {"A": "Ctrl + A", "B": "Ctrl + B", "C": "Ctrl + C", "D": "Ctrl + S"},
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "Tanlangan matnni qalin (жирный / bold) qilish uchun qaysi birikma ishlatiladi?",
+        "options": {"A": "Ctrl + I", "B": "Ctrl + U", "C": "Ctrl + B", "D": "Ctrl + K"},
+        "answer": "C"
+      },
+      {
+        "id": 4,
+        "question": "Matnni qiya (kursiv / italic) qilish tugmasi qaysi?",
+        "options": {"A": "Ctrl + I", "B": "Ctrl + B", "C": "Ctrl + J", "D": "Ctrl + E"},
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "question": "Hujjatni chop etish (pechatga berish) darchasini ochish klavishi qaysi?",
+        "options": {"A": "Ctrl + P", "B": "Ctrl + O", "C": "Ctrl + N", "D": "Ctrl + W"},
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "question": "Oxirgi amalni bekor qilish (Undo) qaysi birikma orqali bajariladi?",
+        "options": {"A": "Ctrl + Y", "B": "Ctrl + Z", "C": "Ctrl + X", "D": "Ctrl + D"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Matn ichidan so'z qidirish (Find) oynasini ochish klavishi qaysi?",
+        "options": {"A": "Ctrl + F", "B": "Ctrl + H", "C": "Ctrl + G", "D": "Ctrl + K"},
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "question": "Matndagi so'zni boshqasiga almashtirish (Replace) qaysi klavishlar orqali ochiladi?",
+        "options": {"A": "Ctrl + H", "B": "Ctrl + F", "C": "Ctrl + R", "D": "Ctrl + J"},
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "question": "Word hujjatlarining standart zamonaviy fayl kengaytmasi qaysi?",
+        "options": {"A": ".txt", "B": ".docx", "C": ".xlsx", "D": ".pptx"},
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Matnni sahifa markazi bo'ylab tekislash (center align) qaysi birikma orqali bo'ladi?",
+        "options": {"A": "Ctrl + L", "B": "Ctrl + R", "C": "Ctrl + E", "D": "Ctrl + J"},
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "Matnni ikkala tomon bo'ylab bir tekisda taqsimlash (justify) qaysi birikma orqali bajariladi?",
+        "options": {"A": "Ctrl + J", "B": "Ctrl + E", "C": "Ctrl + B", "D": "Ctrl + M"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Sahifa chekkalaridagi hoshiyalarni (maydonlarni) sozlash qaysi menyu orqali amalga oshiriladi?",
+        "options": {"A": "Layout (Maket)", "B": "Insert (Vstavka)", "C": "Home (Glavnaya)", "D": "View (Vid)"},
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "Hujjatga sahifa raqamini qo'yish qaysi bo'limda joylashgan?",
+        "options": {"A": "Insert -> Page Number", "B": "Layout -> Orientation", "C": "Review -> Translate", "D": "Home -> Paragraph"},
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "Sahifa tanaffusini (Page Break) klaviatura orqali qanday qo'yish mumkin?",
+        "options": {"A": "Ctrl + Enter", "B": "Shift + Enter", "C": "Alt + Enter", "D": "Tab + Enter"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Matnga giperhavola (link) qo'yish tezkor klavishi qaysi?",
+        "options": {"A": "Ctrl + K", "B": "Ctrl + L", "C": "Ctrl + H", "D": "Ctrl + U"},
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Hujjatning har bir sahifasi yuqori yoki pastki qismida takrorlanuvchi yozuv nima deyiladi?",
+        "options": {"A": "Kolontitul (Header & Footer)", "B": "Snoska (Footnote)", "C": "Giperhavola", "D": "Zametka"},
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "question": "Formatlash uslubini bitta matndan olib boshqasiga ko'chirish vositasi nima?",
+        "options": {"A": "Format Painter (Format bo'yicha namuna)", "B": "Copy/Paste", "C": "AutoText", "D": "ClipArt"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Imlo va grammatika tekshiruvini ishga tushiruvchi funksional klavish qaysi?",
+        "options": {"A": "F7", "B": "F1", "C": "F5", "D": "F12"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Faylni yangi nom bilan saqlash (Save As) darchasi qaysi klavish bilan tezkor ochiladi?",
+        "options": {"A": "F12", "B": "F2", "C": "Ctrl + S", "D": "F4"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Hujjatdagi satrlar orasidagi masofa nima deyiladi?",
+        "options": {"A": "Satrlararo interval (Line Spacing)", "B": "Kerning", "C": "Indent", "D": "Margin"},
+        "answer": "A"
+      }
+    ]
+  },
+  "powerpoint": {
+    "title": "PowerPoint",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Microsoft PowerPoint dasturining asosiy vazifasi nima?",
+        "options": {"A": "Taqdimotlar (prezentatsiyalar) yaratish", "B": "Hisob-kitob qilish", "C": "Video montaj", "D": "Dasturlash"},
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "question": "Taqdimotni birinchi slayddan namoyish qilish (Start Slide Show) klavishi qaysi?",
+        "options": {"A": "F5", "B": "Shift + F5", "C": "F1", "D": "Ctrl + F5"},
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "Aynan hozir tanlangan slayddan namoyishni boshlash klavishi qaysi?",
+        "options": {"A": "Shift + F5", "B": "F5", "C": "Ctrl + P", "D": "Alt + F5"},
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "question": "Taqdimotga yangi slayd qo'shish uchun qaysi klavishlar birikmasi bosiladi?",
+        "options": {"A": "Ctrl + M", "B": "Ctrl + N", "C": "Ctrl + S", "D": "Ctrl + D"},
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "question": "Mavjud slaydning nusxasini yaratish (duplikat) klavishi qaysi?",
+        "options": {"A": "Ctrl + D", "B": "Ctrl + C", "C": "Ctrl + K", "D": "Ctrl + Shift + D"},
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "question": "Slaydlar orasidagi o'tish effektlari qaysi bo'limda sozlanadi?",
+        "options": {"A": "Transitions (Pereyodi)", "B": "Animations (Animatsiya)", "C": "Design", "D": "Review"},
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "question": "Slayd ichidagi obyektlar (matn, rasm) harakati qaysi bo'lim orqali boshqariladi?",
+        "options": {"A": "Animations (Animatsiya)", "B": "Transitions", "C": "Slide Show", "D": "View"},
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "question": "PowerPoint fayllarining zamonaviy kengaytmasi qanday?",
+        "options": {"A": ".pptx", "B": ".ppt", "C": ".docx", "D": ".xlsx"},
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "question": "Namoyish vaqtida slaydni to'xtatish (chiqish) uchun qaysi klavish bosiladi?",
+        "options": {"A": "Esc", "B": "Enter", "C": "Space", "D": "Backspace"},
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Barcha slaydlar uslubini bir joydan boshqarish vositasi nima deyiladi?",
+        "options": {"A": "Slide Master (Obrazes slaydiyov)", "B": "Theme Builder", "C": "Layout Editor", "D": "Style Manager"},
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "Namoyish davomida ekranni butunlay oq qilib qo'yish uchun qaysi klavish bosiladi?",
+        "options": {"A": "W", "B": "B", "C": "C", "D": "E"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Namoyish davomida ekranni butunlay qora qilib qo'yish uchun qaysi klavish bosiladi?",
+        "options": {"A": "B", "B": "W", "C": "Q", "D": "Z"},
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "SmartArt vositasi nima uchun xizmat qiladi?",
+        "options": {"A": "Ma'lumotlarni grafik diagramma va sxemalar shaklida tasvirlash", "B": "Faqat rasm chizish", "C": "Videoni qirqish", "D": "Ovoz yozish"},
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "Taqdimotni faqat o'qish va darhol namoyish rejimida ochiladigan formatda saqlash kengaytmasi qaysi?",
+        "options": {"A": ".ppsx", "B": ".pptx", "C": ".pdf", "D": ".potx"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Slayd nisbatlarining standart zamonaviy o'lchami qanday?",
+        "options": {"A": "16:9", "B": "4:3", "C": "1:1", "D": "21:9"},
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Namoyish vaqtida qalam (pen) vositasini faollashtirish uchun qaysi birikma bosiladi?",
+        "options": {"A": "Ctrl + P", "B": "Ctrl + A", "C": "Ctrl + E", "D": "Ctrl + H"},
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "question": "Taqdimot slaydlariga spiker uchun eslatma (zametka) qo'shish qayerda yoziladi?",
+        "options": {"A": "Notes (Zametki) pastki panelida", "B": "Slayd o'rtasida", "C": "Fayl nomida", "D": "Status barda"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Slaydga fon musiqasi qo'shish qaysi bo'lim orqali bajariladi?",
+        "options": {"A": "Insert -> Audio", "B": "Design -> Sound", "C": "Transitions -> Music", "D": "Home -> Media"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Slayd elementlarini tekislash (o'rtaga, chetga) qaysi buyruq orqali bajariladi?",
+        "options": {"A": "Align (Vyravnivaniye)", "B": "Group", "C": "Rotate", "D": "Distribute only"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Taqdimotni video formatida (.mp4) eksport qilsa bo'ladimi?",
+        "options": {"A": "Ha, File -> Export -> Create a Video orqali", "B": "Yo'q, faqat ppt formatda bo'ladi", "C": "Faqat audio eksport qilinadi", "D": "Faqat maxsus plagin bilan"},
+        "answer": "A"
+      }
+    ]
+  },
+  "python": {
+    "title": "Python",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Python-da bir qatorli izoh (comment) qaysi belgi bilan yoziladi?",
+        "options": {"A": "//", "B": "#", "C": "/*", "D": "--"},
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Quyidagi ma'lumot turlaridan qaysi biri o'zgarmas (immutable) hisoblanadi?",
+        "options": {"A": "list", "B": "dict", "C": "tuple", "D": "set"},
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "Python-da funksiya e'lon qilish uchun qaysi kalit so'z ishlatiladi?",
+        "options": {"A": "func", "B": "def", "C": "function", "D": "define"},
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "len('Salom') funksiyasi qanday natija qaytaradi?",
+        "options": {"A": "4", "B": "5", "C": "6", "D": "TypeError"},
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "Python-da anonim (nomsiz) funksiyalar qanday yaratiladi?",
+        "options": {"A": "def", "B": "lambda", "C": "anonymous", "D": "arrow"},
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "Ro'yxatning (list) oxiriga element qo'shish metodi qaysi?",
+        "options": {"A": "add()", "B": "append()", "C": "insert()", "D": "extend()"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Python-da xatolarni ushlash va qayta ishlash bloki qanday ataladi?",
+        "options": {"A": "try - except", "B": "try - catch", "C": "do - catch", "D": "catch - throw"},
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "question": "Kutubxonalarni o'rnatish uchun Python-ning standart paket menejeri qaysi?",
+        "options": {"A": "npm", "B": "pip", "C": "composer", "D": "gem"},
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "range(1, 5) siklda qaysi sonlarni ketma-ket qaytaradi?",
+        "options": {"A": "1, 2, 3, 4, 5", "B": "1, 2, 3, 4", "C": "0, 1, 2, 3, 4", "D": "2, 3, 4, 5"},
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Python tilining asoschisi kim?",
+        "options": {"A": "Dennis Ritchie", "B": "James Gosling", "C": "Guido van Rossum", "D": "Bjarne Stroustrup"},
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "Lug'atda (dict) mavjud barcha kalitlarni olish metodi qaysi?",
+        "options": {"A": "keys()", "B": "values()", "C": "items()", "D": "get()"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Python-da butun sonli bo'lish amali qaysi operator bilan bajariladi?",
+        "options": {"A": "/", "B": "//", "C": "%", "D": "^"},
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "Bo'lishdagi qoldiqni topish operatori qaysi?",
+        "options": {"A": "%", "B": "//", "C": "mod", "D": "rem"},
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "Fayllar bilan xavfsiz ishlashda avtomatik yopilishni ta'minlovchi konstruksiya qaysi?",
+        "options": {"A": "with open(...) as f:", "B": "file.open()", "C": "open.auto()", "D": "using file:"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "OOP da sinf konstruktori (initsializatori) qanday nomlanadi?",
+        "options": {"A": "__construct__", "B": "__init__", "C": "__new__", "D": "init()"},
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "Python-da generator funksiyalarda qiymat qaytarish uchun qaysi kalit so'z ishlatiladi?",
+        "options": {"A": "return", "B": "yield", "C": "produce", "D": "generate"},
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "List comprehension misoli to'g'ri ko'rsatilgan qatorni toping:",
+        "options": {"A": "[x*2 for x in range(5)]", "B": "for x in range(5): x*2", "C": "list(x*2 -> range(5))", "D": "(x*2 in range(5))"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Qaysi kalit so'z orqali siklni muddatidan oldin butunlay to'xtatish mumkin?",
+        "options": {"A": "continue", "B": "pass", "C": "break", "D": "exit"},
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "question": "Virtual muhit (virtual environment) yaratish uchun standart modul qaysi?",
+        "options": {"A": "venv", "B": "virtual", "C": "pipenv", "D": "env"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Asinxron dasturlash uchun Python-da qaysi standart kutubxona mavjud?",
+        "options": {"A": "asyncio", "B": "threading", "C": "multiprocessing", "D": "concurrent"},
+        "answer": "A"
+      }
+    ]
+  },
+  "html_css": {
+    "title": "HTML va CSS",
+    "questions": [
+      {
+        "id": 1,
+        "question": "HTML qisqartmasi nimani anglatadi?",
+        "options": {"A": "Hyper Text Markup Language", "B": "High Tech Modern Language", "C": "Hyper Transfer Mode Language", "D": "Home Tool Markup Language"},
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "question": "Eng katta darajadagi sarlavha tegi qaysi?",
+        "options": {"A": "<heading>", "B": "<h6>", "C": "<h1>", "D": "<head>"},
+        "answer": "C"
+      },
+      {
+        "id": 3,
+        "question": "Giperhavola (link) yaratish uchun qaysi teg qo'llaniladi?",
+        "options": {"A": "<link>", "B": "<a>", "C": "<href>", "D": "<url>"},
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "Rasm qo'yish tegi qaysi?",
+        "options": {"A": "<img>", "B": "<picture>", "C": "<image>", "D": "<src>"},
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "question": "CSS qisqartmasining to'g'ri yoyilmasi qanday?",
+        "options": {"A": "Cascading Style Sheets", "B": "Computer Style Sheets", "C": "Creative Style System", "D": "Color Style Sheets"},
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "question": "HTML elementining fon rangini o'zgartirish CSS xususiyati qaysi?",
+        "options": {"A": "color", "B": "background-color", "C": "bgcolor", "D": "fill-color"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Matn rangini belgilash uchun qaysi CSS xususiyati ishlatiladi?",
+        "options": {"A": "text-color", "B": "color", "C": "font-color", "D": "foreground"},
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "CSS da ID selektori qaysi belgi bilan boshlanadi?",
+        "options": {"A": ".", "B": "#", "C": "@", "D": "*"},
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "CSS da Class selektori qaysi belgi bilan yoziladi?",
+        "options": {"A": ".", "B": "#", "C": "$", "D": "%"},
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Elementning ichki bo'shlig'i (chegaradan ichkariga) qaysi xususiyat bilan beriladi?",
+        "options": {"A": "margin", "B": "padding", "C": "border", "D": "spacing"},
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "question": "Elementning tashqi bo'shlig'i (chegaradan tashqariga) qaysi xususiyat?",
+        "options": {"A": "margin", "B": "padding", "C": "outline", "D": "gap"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Tartibsiz ro'yxat (nuqtali) yaratish tegi qaysi?",
+        "options": {"A": "<ol>", "B": "<ul>", "C": "<li>", "D": "<list>"},
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "Tartiblangan (raqamli) ro'yxat yaratish tegi qaysi?",
+        "options": {"A": "<ol>", "B": "<ul>", "C": "<dl>", "D": "<order>"},
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "CSS Flexbox da asosiy o'q bo'ylab elementlarni tekislash xususiyati qaysi?",
+        "options": {"A": "align-items", "B": "justify-content", "C": "flex-direction", "D": "align-content"},
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "question": "HTML5 da semantik teg hisoblangan qatorni toping:",
+        "options": {"A": "<div>", "B": "<span>", "C": "<header>", "D": "<b>"},
+        "answer": "C"
+      },
+      {
+        "id": 16,
+        "question": "CSS da elementni sahifada mahkamlangan holatda (scroll qilinganda ham o'zgarmas) qilish qaysi qiymat?",
+        "options": {"A": "position: static", "B": "position: relative", "C": "position: absolute", "D": "position: fixed"},
+        "answer": "D"
+      },
+      {
+        "id": 17,
+        "question": "Jadval yaratishning asosiy HTML tegi qaysi?",
+        "options": {"A": "<table>", "B": "<grid>", "C": "<tab>", "D": "<tr>"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Input maydoniga matn kiritilmaganida xira ko'rinib turadigan namuna matn qaysi atribut?",
+        "options": {"A": "value", "B": "placeholder", "C": "hint", "D": "title"},
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "question": "CSS Grid texnologiyasida ustunlar soni va o'lchamini belgilovchi xususiyat qaysi?",
+        "options": {"A": "grid-template-columns", "B": "grid-columns", "C": "column-count", "D": "grid-size"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Turli ekran o'lchamlari (mobil, planshet) uchun moslashuvchanlikni yaratuvchi CSS qoidasi qaysi?",
+        "options": {"A": "@media", "B": "@responsive", "C": "@screen", "D": "@devices"},
+        "answer": "A"
+      }
+    ]
+  },
+  "sql": {
+    "title": "SQL",
+    "questions": [
+      {
+        "id": 1,
+        "question": "SQL qisqartmasi nimani anglatadi?",
+        "options": {"A": "Structured Query Language", "B": "Simple Question Language", "C": "Server Query Logic", "D": "Standard Queue Link"},
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "question": "Jadvaldan ma'lumotlarni o'qib olish (tanlash) uchun qaysi kalit so'z ishlatiladi?",
+        "options": {"A": "GET", "B": "SELECT", "C": "FETCH", "D": "EXTRACT"},
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "question": "SELECT so'rovida qatorlarni filtrlash uchun qaysi qism qo'llaniladi?",
+        "options": {"A": "WHERE", "B": "ORDER BY", "C": "GROUP BY", "D": "FILTER"},
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "question": "Jadvalga yangi qator qo'shish buyrug'i qaysi?",
+        "options": {"A": "ADD ROW", "B": "INSERT INTO", "C": "UPDATE", "D": "CREATE"},
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "Mavjud qatordagi ma'lumotlarni o'zgartirish (yangilash) buyrug'i qaysi?",
+        "options": {"A": "MODIFY", "B": "UPDATE", "C": "CHANGE", "D": "SAVE"},
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "Jadvaldan qatorlarni o'chirish buyrug'i qaysi?",
+        "options": {"A": "REMOVE", "B": "DELETE", "C": "DROP", "D": "CLEAR"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Butun jadvalni va uning tuzilmasini butunlay o'chirib tashlash buyrug'i qaysi?",
+        "options": {"A": "DELETE TABLE", "B": "DROP TABLE", "C": "TRUNCATE", "D": "REMOVE TABLE"},
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "Natijalarni o'sish yoki kamayish tartibida saralash uchun nima ishlatiladi?",
+        "options": {"A": "SORT BY", "B": "ORDER BY", "C": "GROUP BY", "D": "ARRANGE"},
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "question": "Qaytarilgan natijalar ichidan faqat noyob (takrorlanmaydigan) qiymatlarni tanlash so'zi qaysi?",
+        "options": {"A": "UNIQUE", "B": "DISTINCT", "C": "DIFFERENT", "D": "SINGLE"},
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "Ikki jadvaldagi mos keluvchi qatorlarni birlashtiruvchi JOIN turi qaysi?",
+        "options": {"A": "INNER JOIN", "B": "LEFT JOIN", "C": "RIGHT JOIN", "D": "FULL JOIN"},
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "Birinchi jadvalning barcha qatorlarini va ikkinchisidan faqat moslarini oluvchi JOIN qaysi?",
+        "options": {"A": "LEFT JOIN", "B": "INNER JOIN", "C": "RIGHT JOIN", "D": "CROSS JOIN"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Jadvaldagi qatorlar sonini sanovchi agregat funksiya qaysi?",
+        "options": {"A": "SUM()", "B": "COUNT()", "C": "TOTAL()", "D": "LEN()"},
+        "answer": "B"
+      },
+      {
+        "id": 13,
+        "question": "O'rtacha qiymatni hisoblovchi SQL funksiyasi qaysi?",
+        "options": {"A": "AVG()", "B": "AVERAGE()", "C": "MEAN()", "D": "MID()"},
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "Ma'lumotlarni guruhlash uchun qaysi klauza ishlatiladi?",
+        "options": {"A": "ORDER BY", "B": "GROUP BY", "C": "HAVING", "D": "CLUSTER BY"},
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "question": "Guruhlangan ma'lumotlarga (GROUP BY dan keyin) shart berish uchun nima ishlatiladi?",
+        "options": {"A": "WHERE", "B": "HAVING", "C": "IF", "D": "FILTER"},
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "Jadvaldagi har bir qatorni bir qiymatli identifikatsiya qiluvchi asosiy kalit nima deyiladi?",
+        "options": {"A": "Foreign Key", "B": "Primary Key", "C": "Candidate Key", "D": "Super Key"},
+        "answer": "B"
+      },
+      {
+        "id": 17,
+        "question": "Boshqa jadvalning Primary Key-iga bog'langan kalit nima deyiladi?",
+        "options": {"A": "Foreign Key (Tashqi kalit)", "B": "Secondary Key", "C": "Index", "D": "Unique Key"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Matnli ustunda shablon bo'yicha qidirish operatori qaysi (masalan: 'A%' bilan boshlanadigan)?",
+        "options": {"A": "LIKE", "B": "MATCH", "C": "CONTAINS", "D": "EQUAL"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "So'rov natijasida chiqadigan qatorlar sonini cheklash uchun qaysi kalit so'z ishlatiladi?",
+        "options": {"A": "LIMIT", "B": "TOP", "C": "MAXROWS", "D": "Har ikkisi DBMS ga qarab (LIMIT / TOP)"},
+        "answer": "D"
+      },
+      {
+        "id": 20,
+        "question": "Tranzaksiyani bekor qilish va oldingi holatga qaytarish buyrug'i qaysi?",
+        "options": {"A": "COMMIT", "B": "ROLLBACK", "C": "SAVEPOINT", "D": "UNDO"},
+        "answer": "B"
+      }
+    ]
+  },
+  "git": {
+    "title": "Git",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Git nima?",
+        "options": {"A": "Dasturlash tili", "B": "Taqsimlangan versiyalarni boshqarish tizimi", "C": "Ma'lumotlar bazasi", "D": "Operatsion tizim"},
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "question": "Joriy papkada yangi bo'sh Git repozitoriysini yaratish buyrug'i qaysi?",
+        "options": {"A": "git start", "B": "git init", "C": "git new", "D": "git create"},
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "question": "Masofaviy (remote) repozitoriydan nusxa ko'chirib olish buyrug'i qaysi?",
+        "options": {"A": "git copy", "B": "git clone", "C": "git fork", "D": "git pull"},
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "question": "Fayllardagi o'zgarishlarni staging areaga (kuzatuvga) qo'shish buyrug'i qaysi?",
+        "options": {"A": "git add", "B": "git commit", "C": "git push", "D": "git track"},
+        "answer": "A"
+      },
+      {
+        "id": 5,
+        "question": "O'zgarishlarni izoh bilan qotirish (saqlash) buyrug'i qaysi?",
+        "options": {"A": "git commit -m 'xabar'", "B": "git save", "C": "git push", "D": "git store"},
+        "answer": "A"
+      },
+      {
+        "id": 6,
+        "question": "Ishchi papka va kuzatuvdagi fayllar holatini ko'rish buyrug'i qaysi?",
+        "options": {"A": "git check", "B": "git status", "C": "git log", "D": "git info"},
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Commit-lar tarixini ketma-ket ko'rish buyrug'i qaysi?",
+        "options": {"A": "git history", "B": "git log", "C": "git show", "D": "git commits"},
+        "answer": "B"
+      },
+      {
+        "id": 8,
+        "question": "Yangi tarmoq (branch) yaratish va unga o'tishning zamonaviy buyrug'i qaysi?",
+        "options": {"A": "git switch -c <nomi>", "B": "git checkout -b <nomi>", "C": "Har ikkisi ham to'g'ri", "D": "git branch --go <nomi>"},
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "question": "Bir tarmoqni ikkinchisiga birlashtirish buyrug'i qaysi?",
+        "options": {"A": "git merge", "B": "git combine", "C": "git join", "D": "git connect"},
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Lokal o'zgarishlarni masofaviy serverga (GitHub/GitLab) yuborish buyrug'i qaysi?",
+        "options": {"A": "git send", "B": "git push", "C": "git upload", "D": "git pull"},
+        "answer": "B"
+      },
+      {
+        "id": 11,
+        "question": "Masofaviy repozitoriydagi yangilanishlarni lokalga tortib olib birlashtirish buyrug'i qaysi?",
+        "options": {"A": "git fetch", "B": "git pull", "C": "git update", "D": "git sync"},
+        "answer": "B"
+      },
+      {
+        "id": 12,
+        "question": "Qaysi faylda Git tomonidan e'tibor berilmasligi kerak bo'lgan fayllar ro'yxati yoziladi?",
+        "options": {"A": ".gitignore", "B": ".gitconfig", "C": ".gitexclude", "D": "ignore.txt"},
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "Tugallanmagan o'zgarishlarni vaqtincha saqlab (yashirib) turish buyrug'i qaysi?",
+        "options": {"A": "git stash", "B": "git hide", "C": "git pause", "D": "git keep"},
+        "answer": "A"
+      },
+      {
+        "id": 14,
+        "question": "git fetch va git pull o'rtasidagi asosiy farq nima?",
+        "options": {"A": "git fetch faqat yangiliklarni olib keladi, lekin avtomatik merge qilmaydi; git pull esa fetch + merge bajaradi", "B": "Farqi yo'q", "C": "git fetch fayllarni o'chiradi", "D": "git pull serverga yuklaydi"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Faylda qaysi qatorni kim va qachon yozganini ko'rish buyrug'i qaysi?",
+        "options": {"A": "git blame", "B": "git who", "C": "git author", "D": "git trace"},
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Fayllarga kiritilgan oxirgi o'zgarishlar farqini (diff) ko'rish buyrug'i qaysi?",
+        "options": {"A": "git diff", "B": "git delta", "C": "git compare", "D": "git show-changes"},
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "question": "Oxirgi qilingan commit xabarini o'zgartirish qaysi parametr orqali bajariladi?",
+        "options": {"A": "git commit --amend", "B": "git commit --change", "C": "git commit --fix", "D": "git commit --edit"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Ikki kishi bir xil qatorni o'zgartirganda birlashishda nima yuz beradi?",
+        "options": {"A": "Merge Conflict (To'qnashuv)", "B": "Fayl o'chib ketadi", "C": "Git o'zi avtomatik hal qiladi", "D": "Kompyuter qotib qoladi"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Git-da global foydalanuvchi ismini o'rnatish qaysi buyruq?",
+        "options": {"A": "git config --global user.name 'Ism'", "B": "git set user 'Ism'", "C": "git profile --name 'Ism'", "D": "git auth 'Ism'"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Git kim tomonidan yaratilgan?",
+        "options": {"A": "Linus Torvalds", "B": "Bill Gates", "C": "Steve Jobs", "D": "Mark Zuckerberg"},
+        "answer": "A"
+      }
+    ]
+  },
+  "computer_basics": {
+    "title": "Kompyuter savodxonligi (asosiy)",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Kompyuterning 'miyasi' deb qaysi qurilmaga aytiladi?",
+        "options": {"A": "Protsessor (CPU)", "B": "Operativ xotira (RAM)", "C": "Qattiq disk (HDD/SSD)", "D": "Videokarta (GPU)"},
+        "answer": "A"
+      },
+      {
+        "id": 2,
+        "question": "Kompyuter o'chirilganda qaysi xotiradagi ma'lumotlar butunlay o'chib ketadi?",
+        "options": {"A": "RAM (Operativ xotira)", "B": "ROM (Doimiy xotira)", "C": "SSD", "D": "Flash karta"},
+        "answer": "A"
+      },
+      {
+        "id": 3,
+        "question": "Axborotning eng kichik o'lchov birligi nima?",
+        "options": {"A": "Bit", "B": "Bayt", "C": "Kilobayt", "D": "Gigabayt"},
+        "answer": "A"
+      },
+      {
+        "id": 4,
+        "question": "1 Bayt necha bitga teng?",
+        "options": {"A": "4", "B": "8", "C": "16", "D": "1024"},
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "1 Kilobayt (KB) necha baytga teng?",
+        "options": {"A": "1000", "B": "1024", "C": "512", "D": "2048"},
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "question": "Matn yoki fayldan nusxa olish (Copy) tezkor klavishi qaysi?",
+        "options": {"A": "Ctrl + C", "B": "Ctrl + V", "C": "Ctrl + X", "D": "Ctrl + Z"},
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "question": "Nusxa olingan obyektni kerakli joyga qo'yish (Paste) klavishi qaysi?",
+        "options": {"A": "Ctrl + V", "B": "Ctrl + C", "C": "Ctrl + P", "D": "Ctrl + S"},
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "question": "Obyektni kesib olish (Cut) klavishi qaysi?",
+        "options": {"A": "Ctrl + X", "B": "Ctrl + C", "C": "Ctrl + D", "D": "Ctrl + K"},
+        "answer": "A"
+      },
+      {
+        "id": 9,
+        "question": "Windows da ochiq dasturlar (oynalar) o'rtasida tezkor almashish birikmasi qaysi?",
+        "options": {"A": "Alt + Tab", "B": "Ctrl + Tab", "C": "Win + Tab", "D": "Alt + F4"},
+        "answer": "A"
+      },
+      {
+        "id": 10,
+        "question": "Faol dastur yoki oynani butunlay yopish klavishi qaysi?",
+        "options": {"A": "Alt + F4", "B": "Ctrl + W", "C": "Esc", "D": "Shift + Delete"},
+        "answer": "A"
+      },
+      {
+        "id": 11,
+        "question": "Faylni savatga (Korzina) tushirmasdan butunlay o'chirib yuborish klavishi qaysi?",
+        "options": {"A": "Shift + Delete", "B": "Ctrl + Delete", "C": "Delete", "D": "Alt + Delete"},
+        "answer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Fayl yoki papka nomini o'zgartirish (Rename) uchun qaysi funksional klavish bosiladi?",
+        "options": {"A": "F2", "B": "F1", "C": "F5", "D": "F12"},
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "question": "Sahifa yoki oynani yangilash (Refresh) klavishi qaysi?",
+        "options": {"A": "F5", "B": "F4", "C": "Ctrl + R", "D": "Har ikkisi ham (F5 va Ctrl+R)"},
+        "answer": "D"
+      },
+      {
+        "id": 14,
+        "question": "Fayllar hajmini qisqartirish (arxivlash) formati qaysi?",
+        "options": {"A": ".zip yoki .rar", "B": ".exe", "C": ".pdf", "D": ".docx"},
+        "answer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Vazifalar dispetcherini (Task Manager) to'g'ridan-to'g'ri ochuvchi tezkor birikma qaysi?",
+        "options": {"A": "Ctrl + Shift + Esc", "B": "Ctrl + Alt + Delete", "C": "Win + X", "D": "Alt + Space"},
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "question": "Kompyuter ekranini rasmga olish (skrinshot) klavishi qaysi?",
+        "options": {"A": "Print Screen (PrtScn) yoki Win + Shift + S", "B": "Ctrl + S", "C": "Alt + P", "D": "F11"},
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "question": "Quyidagilardan qaysi biri operatsion tizim hisoblanmaydi?",
+        "options": {"A": "Google Chrome", "B": "Windows 11", "C": "macOS", "D": "Ubuntu Linux"},
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Internetdagi veb-sahifalarni ko'rish uchun xizmat qiluvchi dasturlar nima deyiladi?",
+        "options": {"A": "Brauzer (Browser)", "B": "Provayder", "C": "Server", "D": "Drayver"},
+        "answer": "A"
+      },
+      {
+        "id": 19,
+        "question": "Qurilmalarning (printer, videokarta) operatsion tizim bilan ishlashini ta'minlovchi dastur nima deyiladi?",
+        "options": {"A": "Drayver (Driver)", "B": "Koder", "C": "Kutubxona", "D": "Protsessor"},
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Zararli dasturlardan himoyalanish uchun qanday dasturlar o'rnatiladi?",
+        "options": {"A": "Antivirus", "B": "Optimizator", "C": "Defrakmentator", "D": "Kodek"},
+        "answer": "A"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+*.sqlite3
+*.db
+temp/
+output/
+certificates/
+.venv/
+venv/
+test.py
+test_verification.py
